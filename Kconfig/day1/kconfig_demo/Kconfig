@@ -1,0 +1,11 @@
+menu "Driver Configuration"
+
+config UART
+    bool "Enable UART"
+    default y
+
+config BLE
+    bool "Enable BLE"
+    default y
+
+endmenu

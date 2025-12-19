@@ -1,0 +1,12 @@
+menu "Driver configuration"
+
+config UART
+    bool "Enable UART driver"
+    default y
+
+config UART_BAUDRATE
+    int "UART baudrate"
+    default 115200
+    depends on UART
+
+endmenu

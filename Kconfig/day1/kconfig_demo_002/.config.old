@@ -1,0 +1,7 @@
+
+#
+# Driver configuration
+#
+CONFIG_UART=y
+CONFIG_UART_BAUDRATE=38400
+# end of Driver configuration
